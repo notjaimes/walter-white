@@ -1,0 +1,85 @@
+body {
+    background-color: paleturquoise;
+    text-align: center;
+}
+
+:root {
+    /* color of text for walter white's activity.
+       If you decide not to duplicate & create your own,
+       don't forget to change the variable name & value */
+    --yellow: #fff54f;
+}
+
+/* edit the body as you'd like, color, images, aligning */
+
+
+
+/*** TITLES ***/
+h1 {
+    /* font size of text for walter white's activity.
+     If you decide not to duplicate & create your own,
+     don't forget to change the font size */
+    font-size: 112px;
+    text-align: center;
+}
+
+h2 {
+    /* font size & family of text for walter white's activity.
+     If you decide not to duplicate & create your own,
+     don't forget to change the font size & family */
+    font-size: 40px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    text-align: center;
+}
+
+
+
+/*** IMAGES ***/
+/* Your row = container
+     Your column = items
+     Hint: look into: display, flex-wrap
+     justy-content, align-items, gap*/
+
+#firstrow img,
+#secondrow img,
+#thirdrow img,
+#fourthrow img {
+    height: 300px;
+}
+
+img {
+    height: 100px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.column {
+    margin: 25px 0px;
+}
+
+/*** LOLLIPOP CONTENT ***/
+p {
+    /* font size of text for walter white's activity.
+     If you decide not to duplicate & create your own,
+     don't forget to change the font size */
+    font-size: 25px;
+    text-align: center;
+}
+
+li {
+    text-align: center;
+}
+
+footer p {
+    color: black;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
